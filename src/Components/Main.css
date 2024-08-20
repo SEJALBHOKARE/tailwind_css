@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+
+
+
+  /* removing the default css of a tags */
+  a {
+    text-decoration: none;
+  }
+  
+  /* removing the default css of li tags */
+  li {
+    list-style: none;
+  }
+  
+  body {
+    margin: 0 15vw;
+  }
+  
+main {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .mainImg {
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+  }
+  
+  .main {
+    margin-left: 180px;
+  }
+  
+  .onEarImg {
+    width: 320px;
+    margin-left: 50px;
+  }
+  
+  .main h1 {
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 25px;
+  }
+  
+  .main h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .main p {
+    width: 65%;
+    font-size: 12px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .shopping-bag-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 25px;
+  }
+  
+  .shopping-bag-section img {
+    width: 15px;
+    background-color: transparent;
+  }
+  
+  .shopping-bag-section p {
+    margin-bottom: 0;
+    color: white;
+    background-color: transparent;
+  }
+  
+  .shopping-bag-section span {
+    background-color: transparent;
+  }

@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+  
+  /* removing the default css of a tags */
+  a {
+    text-decoration: none;
+  }
+  
+  /* removing the default css of li tags */
+  li {
+    list-style: none;
+  }
+  
+  body {
+    margin: 0 15vw;
+  }
+.social-media-section {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    position: relative;
+    top: -50px;
+    margin-bottom: 40px;
+  }
+  
+  .social-media-section img {
+    scale: 0.8;
+  }
+  

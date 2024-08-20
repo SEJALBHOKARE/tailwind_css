@@ -1,0 +1,98 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+  
+  /* removing the default css of a tags */
+  a {
+    text-decoration: none;
+  }
+  
+  /* removing the default css of li tags */
+  li {
+    list-style: none;
+  }
+  
+  body {
+    margin: 0 15vw;
+  }
+footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .footer-logo{
+    scale: 0.8;
+  }
+  
+  ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+  }
+  
+  ul li:first-child a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  ul li:first-child{
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-subscription div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe-button img{
+    scale: 0.8;
+  }
+  
+  .subscribe-button p{
+    font-size: 12px;
+  }
+  
+  .footer-subscription div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+  }
+  
+  .arrow-up{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+  }
